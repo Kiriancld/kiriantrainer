@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KirianTrainer - Coach Sportif</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">KirianTrainer</div>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#programmes">Programmes</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Accueil -->
+    <section id="accueil">
+        <h1>Bienvenue chez KirianTrainer</h1>
+        <p>Votre coach sportif dédié à votre transformation physique</p>
+        <a href="#contact" class="cta-button">Réservez une consultation gratuite</a>
+        <a href="#services" class="cta-button">Découvrez nos programmes</a>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="service">
+            <h3>Coaching Individuel</h3>
+            <p>Des séances personnalisées pour atteindre vos objectifs.</p>
+        </div>
+        <div class="service">
+            <h3>Entraînement en Groupe</h3>
+            <p>Un esprit d'équipe pour vous motiver à vous dépasser.</p>
+        </div>
+        <div class="service">
+            <h3>Programmes en Ligne</h3>
+            <p>Des entraînements à suivre à votre rythme, où que vous soyez.</p>
+        </div>
+        <div class="service">
+            <h3>Suivi Nutritionnel</h3>
+            <p>Optimisez vos résultats avec des conseils nutritionnels adaptés.</p>
+        </div>
+    </section>
+
+    <!-- À propos -->
+    <section id="about">
+        <h2>À propos de KirianTrainer</h2>
+        <p>Je m'appelle Kirian et je suis un coach sportif passionné avec [nombre d'années] années d'expérience...</p>
+        <img src="votre-photo.jpg" alt="Kirian">
+    </section>
+
+    <!-- Programmes -->
+    <section id="programmes">
+        <h2>Nos Programmes</h2>
+        <div class="programme">
+            <h3>Programme Perte de Poids</h3>
+            <p>Un programme pour brûler les graisses et tonifier votre silhouette.</p>
+        </div>
+        <div class="programme">
+            <h3>Programme Renforcement Musculaire</h3>
+            <p>Développez votre force et votre masse musculaire.</p>
+        </div>
+        <div class="programme">
+            <h3>Programme Bien-être et Équilibre</h3>
+            <p>Retrouvez une harmonie corps-esprit avec des entraînements doux.</p>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog-post">
+            <h3>5 exercices pour un renforcement musculaire efficace</h3>
+        </div>
+        <div class="blog-post">
+            <h3>Comment rester motivé tout au long de votre parcours fitness</h3>
+        </div>
+        <div class="blog-post">
+            <h3>Les erreurs courantes en nutrition sportive et comment les éviter</h3>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="submit-form.php" method="POST">
+            <input type="text" name="nom" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <textarea name="message" placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+        <p>Email : contact@kiriantrainer.com | Téléphone : [votre numéro]</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 KirianTrainer - Tous droits réservés.</p>
+        <div class="social-links">
+            <a href="#">Instagram</a> | 
+            <a href="#">Facebook</a> | 
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
